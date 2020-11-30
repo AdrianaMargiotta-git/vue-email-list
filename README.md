@@ -8,5 +8,3 @@
 <li>stampiamo le mail generate su schermo</li>
 
 <hr>
-
-
