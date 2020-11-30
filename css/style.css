@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: changecolor;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#app h1 {
+    font-size: 250%;
+    font-family: 'Lobster', cursive;
+    /* text-align: center; */
+}
+
+@keyframes changecolor {
+    0% {background-color: #7FFF00;}
+    50% {background-color: #00FFFF;}
+    100% {background-color: #DE3163;}
+}

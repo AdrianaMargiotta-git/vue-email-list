@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Email with API</title>
+</head>
+<body>
+    
+    <div id="app">
+        <h1> {{titolo}} </h1>
+        <ul v-for="email in listaEmail">
+            <li> {{email}} </li>
+        </ul>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
