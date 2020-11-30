@@ -6,5 +6,3 @@
 <ul>
 <li>generiamo una lista contenente 10 mail casuali;</li>
 <li>stampiamo le mail generate su schermo</li>
-
-<hr>
